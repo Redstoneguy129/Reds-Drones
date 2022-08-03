@@ -14,13 +14,18 @@
       "contributors": {
         "authors": ""
       },
+      "contact": {
+        "homepage": "https://github.com/Redstoneguy129/Reds-Drones/blob/master/README.md",
+        "sources": "https://github.com/Redstoneguy129/Reds-Drones",
+        "issues": "https://github.com/Redstoneguy129/Reds-Drones/issues"
+      },
       "license": "${license}"
     },
     "intermediate_mappings": "net.fabricmc:intermediary",
     "environment": "*",
     "entrypoints": {
       "init": [
-        "${group}.quilt.TemplateQuilt"
+        "${group}.quilt.RedsDronesQuilt"
       ]
     },
     "depends": [

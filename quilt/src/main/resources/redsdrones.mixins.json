@@ -1,6 +1,6 @@
 {
   "required": true,
-  "package": "me.cameronwhyte.mods.template.fabric.mixin.quilt",
+  "package": "me.cameronwhyte.mods.redsdrones.fabric.mixin.quilt",
   "compatibilityLevel": "JAVA_16",
   "client": [
   ],
