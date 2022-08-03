@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "${id}",
+  "version": "${version}",
+  "name": "${name}",
+  "description": "${description}",
+  "authors": ["%authors%"],
+  "license": "${license}",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "${group}.fabric.TemplateFabric"
+    ]
+  },
+  "mixins": [
+    "${id}-common.mixins.json",
+    "${id}.mixins.json"
+  ],
+  "depends": {
+    "fabric": "*",
+    "minecraft": ">=${minecraftVersion}"
+  }
+}

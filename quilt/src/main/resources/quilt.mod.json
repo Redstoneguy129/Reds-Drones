@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "mixin": [
+    "${id}.mixins.json",
+    "${id}-common.mixins.json"
+  ],
+  "quilt_loader": {
+    "group": "${group}",
+    "id": "${id}",
+    "version": "${version}",
+    "metadata": {
+      "name": "${name}",
+      "description": "${description}",
+      "contributors": {
+        "authors": ""
+      },
+      "license": "${license}"
+    },
+    "intermediate_mappings": "net.fabricmc:intermediary",
+    "environment": "*",
+    "entrypoints": {
+      "init": [
+        "${group}.quilt.TemplateQuilt"
+      ]
+    },
+    "depends": [
+      {
+        "id": "quilt_loader",
+        "version": "*"
+      },
+      {
+        "id": "quilt_base",
+        "version": "*"
+      },
+      {
+        "id": "minecraft",
+        "version": ">=${minecraftVersion}"
+      }
+    ]
+  }
+}

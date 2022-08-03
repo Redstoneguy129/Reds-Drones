@@ -1,0 +1,10 @@
+{
+  "required": true,
+  "package": "me.cameronwhyte.mods.template.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [],
+  "mixins": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

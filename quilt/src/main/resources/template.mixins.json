@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "me.cameronwhyte.mods.template.fabric.mixin.quilt",
+  "compatibilityLevel": "JAVA_16",
+  "client": [
+  ],
+  "mixins": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
